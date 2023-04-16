@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>URL Shortener - Swapnil Mane</title>
+        <title>Shorten Your Links - Swapnil Mane</title>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -79,7 +79,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8">
             <h4 className="mb-3 text-center display-3 fw-bold">
-              URL Shortener
+              Shorten Your Links !
             </h4>
             <div className="card shadow">
               <div className="card-body">
