@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add react-hot-toast
+
+PATH: 
+  /bin:/usr/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/next: ESOCKETTIMEDOUT
+      at ClientRequest.eval (file:///usr/local/lib/node_modules/yarn/dist/yarn.js:125484:19)
+      at Object.onceWrapper (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:154161)
+      at EventEmitter.emit (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:156830)
+      at TLSSocket.emitRequestTimeout (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:1193622)
+      at Object.onceWrapper (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:154161)
+      at EventEmitter.emit (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:156946)
+      at Socket._onTimeout (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:303095)
+      at listOnTimeout (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:358767)
+      at processTimers (https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:35:359594)
+      at https://nextjs1xjtdw-shg1.w-credentialless.staticblitz.com/blitz.c8358679.js:44:270537
+
+npm manifest: 
+  {
+    "name": "next-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "^13.0.6",
+      "react": "^18.2.0",
+      "react-copy-to-clipboard": "^5.1.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
